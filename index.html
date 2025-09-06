@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float + Margin layouts</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+
+  <!-- 1. Один ліворуч — один праворуч -->
+  <div class="row h60">
+    <div class="box left"></div>
+    <div class="box right"></div>
+  </div>
+
+  <!-- 2. Один ліворуч — кілька праворуч -->
+  <div class="row h60">
+    <div class="box mr10 left"></div>
+    <div class="box ml10 right"></div>
+    <div class="box ml10 right"></div>
+    <div class="box right"></div>
+  </div>
+
+  <!-- 3. Два ліворуч — два праворуч -->
+  <div class="row h60">
+    <div class="box mr10 left"></div>
+    <div class="box left"></div>
+    <div class="box ml10 right"></div>
+    <div class="box right"></div>
+  </div>
+
+  <!-- 4. ТРИ ПРАВОРУЧ: один великий (високий) + правіше два маленькі В СТОВПЕЦЬ -->
+  <div class="row h130">
+    <!-- Колонка з двома маленькими правіше -->
+    <div class="ml10 bl2">
+      <div class="box mb10"></div>
+      <div class="box"></div>
+    </div>
+
+    <!-- Високий блок праворуч (лівіше за колонку малих) -->
+    <div class="bigTall right"></div>
+
+    <!-- Зліва лишається широкий «порожній» простір, як на ескізі -->
+  </div>
+
+  <!-- 5. ТРИ ПО ЦЕНТРУ: великий посередині + праворуч два маленькі один під одним -->
+  <div class="row h130">
+    <!-- Обгортка точної ширини групи; центруємо лише margin-ами -->
+    <div class="bc5">
+      <!-- Колонка з двома маленькими праворуч від великого -->
+      <div class="bs5">
+        <div class="box mb10"></div>
+        <div class="box"></div>
+      </div>
+      <!-- Великий центральний блок -->
+      <div class="bigCenter mr10 right"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>

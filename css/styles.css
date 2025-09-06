@@ -1,0 +1,78 @@
+ body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      padding: 16px
+    }
+
+    /* Сірі рядки-контейнери (висота фіксована — без clear/overflow) */
+    .row {
+      background: #eee;
+      border: 1px solid #999;
+      padding: 10px;
+      margin: 12px 0
+    }
+
+    .h60 {
+      height: 60px
+    }
+
+    .h130 {
+      height: 130px
+    }
+
+    /* Блоки */
+    .box {
+      width: 150px;
+      height: 60px;
+      background: #bdbdbd;
+      border: 1px solid #666
+    }
+
+    .bigTall {
+      width: 180px;
+      height: 130px;
+      background: #bdbdbd;
+      border: 1px solid #666
+    }
+
+    /* високий праворуч у #4 */
+    .bigCenter {
+      width: 152px;
+      height: 130px;
+      background: #bdbdbd;
+      border: 1px solid #666
+    }
+    .left {
+      float: left;
+    }
+    .right {
+      float: right;
+    }
+    .bl2 {
+      float: right;
+      width: 152px;
+    }
+    .bc5 {
+      width: 500px;
+      margin: 0 auto;
+    }
+    .bs5 {
+      float: right;
+      width: 152px;
+    }
+
+
+    /* центр у #5 */
+
+    /* Утиліти тільки з margin */
+    .mr10 {
+      margin-right: 10px
+    }
+
+    .ml10 {
+      margin-left: 10px
+    }
+
+    .mb10 {
+      margin-bottom: 10px
+    }
